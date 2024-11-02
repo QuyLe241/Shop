@@ -1,0 +1,55 @@
+@mixin styleText($color, $fw, $fs) {
+  font-size: $fs;
+  font-weight: $fw;
+  color: $color;
+}
+
+@mixin styleButton($color, $bg, $opacity, $border-width) {
+  padding: 15px 20px;
+  border-radius: 8px;
+  background-color: $bg;
+  color: $color;
+  opacity: $opacity;
+  border: $border-width solid $color;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.015);
+  &:hover {
+    opacity: 0.5;
+    transition: all 0.5s;
+
+    cursor: pointer;
+  }
+}
+@mixin styleButton2($color, $bg, $opacity, $border-width) {
+  padding: 10px 30px;
+  border-radius: 8px;
+  background-color: $bg;
+  color: $color;
+  opacity: $opacity;
+  border: $border-width solid $color;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.015);
+  &:hover {
+    opacity: 1;
+    transition: all 0.5s;
+    color: $bg;
+    background-color: $color;
+    font-weight: $fw-medium;
+    cursor: pointer;
+  }
+}
+
+@mixin styleSignIn($color, $bg, $opacity, $border-width) {
+  padding: 4px 8px;
+  border-radius: 2px;
+  background-color: $bg;
+  color: $color;
+  opacity: $opacity;
+  border: $border-width solid $white-2;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.015);
+}
+
+@mixin styleImg($height, $width, $box-shadow, $border-radius) {
+  height: $height;
+  width: $width;
+  box-shadow: $box-shadow;
+  border-radius: $border-radius;
+}

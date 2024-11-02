@@ -1,0 +1,60 @@
+#register{
+    background:url(./../../image/bg_footer.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    .register_form{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 1000px;
+        height: 600px;
+        border: 1px solid rgb(241,241,241);
+        border-radius: 12px;
+        padding: 10px 20px;
+        background: transparent;
+        backdrop-filter: blur(6px);
+        box-shadow: 5px 5px 10px 0 rgba(0,0,0,0.5); 
+        .register_title{
+            h1{
+                text-align: center;
+                margin-top: 20px;
+                margin-bottom: 50px;
+                @include styleText($red,$fw-extra-bold,$fs-h1);
+
+
+            }
+        }
+        .form_body{
+            label{
+                @include styleText($white-1,$fw-normal,$fs-m);
+
+            }
+            .btn{
+            
+                @include styleButton2($white-1,$red,1,1px);
+            }
+            .backHome{
+                padding-left: 290px;
+                padding-top: 100px;
+                a{
+                    text-decoration: none;
+                    @include styleText($white-1,$fw-normal,$fs-base);
+                    i{
+                        padding-right: 5px;
+                    }
+                    &:hover{
+                        @include styleText($red-1,$fw-medium,$fs-lg);
+                        transition: all 0.5s;
+                    }
+                }
+                
+            }
+            
+
+        }
+    }
+}

@@ -1,0 +1,40 @@
+@media (max-width: 1225) {
+    /* .header {
+        display: none;
+    } */
+    /* .header_content {
+        display: none;
+    } */
+
+    /* .footer {
+        display: none;
+    } */
+}
+
+@media (max-width: 800px) {
+    .row {
+        display: flex;
+        justify-content: center;
+    }
+    .col-7 {
+        width: 90%;
+        display: inline-block;
+    }
+
+    .col-4 {
+        display: inline-block;
+        width: 90%;
+    }
+
+    /* .header_content {
+        margin-left: 30px;
+    } */
+}
+
+@media (max-width: 500px) {
+    
+}
+
+@media (max-width: 350px) {
+
+}

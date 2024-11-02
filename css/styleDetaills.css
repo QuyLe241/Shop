@@ -1,0 +1,514 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/*          detail */
+.new_arrivals {
+  margin-top: 98px;
+}
+.heart_lovee {
+  background-color: #000000;
+  /* color: #000000; */
+}
+
+/*        detail      */
+/* .product_item {
+    display:flex;
+    justify-content: center
+  } */
+
+.btn_viewshoe {
+  position: absolute;
+  text-align: center;
+  /* display: none; */
+  opacity: 0;
+  width: 39%;
+  /* text-align: center; */
+}
+
+.product_item .btn_viewshoe {
+  /* text-align: center; */
+  margin-left: 30%;
+}
+
+.btn_viewshoe button {
+  border: none;
+  /* width: 39%; */
+  padding: 10px 10px;
+  /* transform: translateY(-200px); */
+  /* background-color: #000000;
+    color: #FFFFFF; */
+  background: rgba(255, 255, 255, 0.6);
+  /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  /* border-radius: 10px; */
+  /* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+}
+
+.btn_viewshoe button:hover {
+  opacity: 0.8;
+  color: white;
+  background: rgb(36, 70, 150);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+}
+
+.col-sm-6 a:hover > .product_item .btn_viewshoe {
+  /* display: block; */
+  opacity: 1;
+  transform: translateY(-250px);
+  transition: all 0.5s;
+}
+
+/*          details child */
+/*      ContainerContent */
+section {
+  overflow: hidden;
+  /* max-width: 1550px; */
+  display: flex;
+  justify-content: center;
+}
+
+.header_content a {
+  color: #575656;
+}
+
+.header_content a:hover {
+  color: black;
+}
+
+.container_Content {
+  max-width: 1550px;
+  margin-top: 93px;
+}
+
+/* .row{
+  overflow: hidden;
+} */
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col-7 {
+  max-width: 775px;
+  /* margin-left: 50px; */
+  /* border-right: #ede7e7 1px solid; */
+  max-height: 100vh;
+  overflow-y: scroll;
+  /* position: relative; */
+  /* margin-top: 150px; */
+  border: 1px solid #e5e5e5;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.col-7::-webkit-scrollbar {
+  display: none;
+}
+
+.col-4 {
+  max-width: 645px;
+  /* display: flex;
+  justify-content: center; */
+  /* background-color: rgb(226, 229, 233); */
+  max-height: 100vh;
+  overflow-y: scroll;
+  /* display: flex;
+  justify-content: center; */
+}
+
+.col-4::-webkit-scrollbar {
+  display: none;
+}
+
+/* .col_container {
+  text-align: center;
+} */
+
+/* ::-webkit-scrollbar {
+  display: none;
+} */
+
+.img_item {
+  display: flex;
+  justify-content: center;
+  /* background-color: #ada7a7; */
+  /* background: rgb(241,240,246); */
+  /* background: linear-gradient(90deg, rgba(241,240,246,1) 0%, rgba(201,205,221,1) 71%, rgba(205,206,225,1) 100%); */
+  /* background: rgb(241,240,246); */
+  /* background: linear-gradient(90deg, rgba(241,240,246,1) 0%, rgba(218,219,230,1) 71%, rgba(226,220,220,1) 100%); */
+}
+
+.contenImg .img_item img:hover {
+  cursor: pointer;
+  transform: rotate(-10deg);
+  transition: 0.5s all;
+}
+
+.contenImg .img_item {
+  font-size: 25px;
+  position: relative;
+  padding-left: 85px;
+  padding-right: 85px;
+  background-color: #f3f0f1;
+}
+
+/* .contenImg .img_item img{
+  font-size: 25px;
+  position: relative;
+} */
+
+.contenImg .img_item span {
+  right: 10px;
+  top: 10px;
+  position: absolute;
+}
+
+.contenImg .img_item span:hover {
+  cursor: pointer;
+}
+
+.like_shoe {
+  /* background-color: #000000; */
+  color: #000000;
+}
+
+.likee {
+  /* background-color: #000000; */
+  color: #000000;
+}
+
+/* .img_item img {
+  background-color: #ada7a7;
+  text-align: center;
+} */
+
+.about h3 {
+  text-transform: uppercase;
+}
+
+.content_shoe h1 {
+  text-transform: uppercase;
+}
+
+.about_shoe {
+  margin: 30px 0;
+  padding-left: 60px;
+  padding-right: 45px;
+}
+
+.about_shoe .about p {
+  margin-top: 30px;
+}
+
+.shoes {
+  margin: 20px 0;
+  padding-left: 60px;
+  padding-right: 45px;
+}
+
+.content_shoe {
+  text-align: center;
+  /* display: flex;
+  justify-content: center; */
+}
+
+.shoe_items img {
+  /* width: 250px; */
+  /* height: 250px; */
+  text-align: center;
+}
+
+.shoe_items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.items {
+  position: relative;
+  box-shadow: 2px 2px 6px #d2cfcf;
+}
+
+.items .btn_view {
+  /* position: absolute; */
+  text-align: center;
+  /* display: none; */
+  opacity: 0;
+}
+
+.items .btn_view button {
+  border: none;
+  width: 39%;
+  padding: 10px 0;
+  /* transform: translateY(-200px); */
+  /* background-color: #000000;
+  color: #FFFFFF; */
+  background: rgba(255, 255, 255, 0.2);
+  /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  /* border-radius: 10px; */
+  /* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+}
+
+.items .btn_view button:hover {
+  background: rgba(38, 8, 171, 0.3);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+}
+
+.items a:hover > .btn_view {
+  /* display: block; */
+  opacity: 1;
+  transform: translateY(-200px);
+  transition: all 0.5s;
+}
+
+.img_item img:hover {
+  transform: rotate(-10deg);
+  transition: 0.5s all;
+}
+
+.items p {
+  color: black;
+  margin-bottom: 5px;
+}
+
+.items span {
+  color: black;
+  font-weight: 700;
+}
+
+.items {
+  margin-bottom: 30px;
+}
+
+.rating {
+  padding-left: 60px;
+  padding-right: 45px;
+}
+
+.stars {
+  text-align: center;
+  font-size: 35px;
+  padding: 10px 20px;
+  /* background-color: blue; */
+  /* color: white; */
+  /* cursor: pointer; */
+  /* width: 500px; */
+}
+
+/* .stars:hover i {
+  color: white;
+  cursor: pointer;
+} */
+.question {
+  padding-bottom: 50px;
+  padding-left: 60px;
+  padding-right: 45px;
+}
+
+.question input {
+  width: 90%;
+  padding: 8px 15px;
+  border-radius: 3px;
+}
+
+/*    position sử dụng khi 
+    scroll dọc xuống và phần tử sticky sẽ dính vào top:0 */
+.nav_sticky {
+  top: 0;
+  position: sticky;
+  background-color: #ffffff;
+  padding: 10px 0;
+}
+
+.nav_sticky ul li {
+  position: relative;
+}
+
+.nav_sticky ul li > a {
+  color: #2b4a99;
+}
+
+.nav_sticky ul li::before {
+  /* color: rgb(21, 20, 20); */
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: #000;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  transition: all 0.5s;
+}
+
+.nav_sticky ul li:hover::before {
+  width: 100%;
+}
+
+.nav_sticky ul li a:hover {
+  /* width: 100%; */
+  color: #000000;
+}
+
+/* .nav_sticky {
+
+} */
+
+.nav_sticky ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav_sticky ul > li {
+  display: inline-block;
+}
+
+.notify {
+  background-color: #e9ecf4;
+  color: #2b4a99;
+  /* font-size: 650; */
+  font-weight: 650;
+}
+
+.btn_buy {
+  display: flex;
+  justify-content: space-around;
+  /* padding: 5px; */
+}
+
+.btn_buy button {
+  padding: 2px 8px;
+}
+
+/*  content right */
+
+.content_shoe {
+  margin: 50px 0 50px 0;
+}
+
+.content_shoe span {
+  margin: 10px 0;
+}
+
+.size_shoe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* modal */
+
+.modal-body h4 {
+  margin: 30px 0;
+}
+
+.not_size span {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.footer_modal {
+  border: rgb(36, 68, 150, 0.06) 1px solid;
+}
+
+/* -- */
+
+.btn_gr {
+  display: flex;
+  justify-content: space-between;
+  /* margin: 10px; */
+}
+
+.btn_gr button {
+  border: #ada7a7 1px solid;
+}
+
+.btn_gr button:hover {
+  border-color: black;
+}
+
+.btn_gr button:active {
+  border-color: black;
+}
+
+.notify {
+  margin: 25px 0;
+}
+
+.buy_shoe {
+  border: rgb(36, 68, 150, 0.06) 1px solid;
+}
+
+.buy_shoe .form_buy {
+  margin: 20px;
+}
+
+.buy_shoe .form_buy input:hover {
+  cursor: pointer;
+}
+
+.store {
+  margin: 20px;
+  padding: 20px 0;
+}
+
+.store button {
+  border: none;
+  background-color: #ffffff;
+}
+
+.btn_buy button {
+  border: none;
+  /* background-color: rgb(36, 68, 150); */
+  color: white;
+  padding: 8px 50px;
+}
+
+.btn_buy .btn1 {
+  background-color: rgb(36, 68, 150);
+}
+
+.btn_buy .btn2 {
+  background-color: rgb(0, 0, 0);
+}
+
+/* back to top */
+/* .backToTop {
+  visibility: visible;
+} */
+
+/*      Animation */
+
+@keyframes move1 {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+.contenImg .img_item img {
+  animation: move1;
+  animation-duration: 2s;
+  animation-iteration-count: calc();
+  background-color: #e5e5e9;
+}
